@@ -2,6 +2,19 @@
     width: 100%;
 }
 
-.inner.cover {
-    
+.inner.cover .strip {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 1fr; */
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+}
+
+.inner.cover .strip .block {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
