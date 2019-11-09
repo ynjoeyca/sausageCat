@@ -60,6 +60,7 @@ body {
 }
 
 .cover-container {
+  width: 100%;
   max-width: 42em;
 }
 
@@ -73,6 +74,17 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+}
+
+.masthead-brand a {
+  color: unset;
+  font-weight: bold;
+  transition: all 0.25s ease-in;
+}
+
+.masthead-brand a:hover {
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .nav-masthead .nav-link {
